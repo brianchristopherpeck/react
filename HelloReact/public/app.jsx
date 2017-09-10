@@ -1,3 +1,4 @@
+// Presentational component... takes props and renders to screen
 var GreeterMessage = React.createClass({
   render: function() {
     var name = this.props.name;
@@ -11,7 +12,7 @@ var GreeterMessage = React.createClass({
   }
 })
 
-
+// Presentational component... doesn't maintain a state
 var GreeterForm = React.createClass({
     onFormSubmit: function (e) {
       e.preventDefault();
@@ -32,6 +33,7 @@ var GreeterForm = React.createClass({
       );
     }
 })
+// Container component... maintains state of name... state can be changed. Props cannot
 var Greeter = React.createClass({
   getDefaultProps: function () {
     return {
