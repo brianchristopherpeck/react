@@ -1,6 +1,6 @@
 var React = require('react');
-var GreeterMessage = require('./GreeterMessage');
-var GreeterForm = require('./GreeterForm');
+var GreeterMessage = require('GreeterMessage');
+var GreeterForm = require('GreeterForm');
 
 // Container component... maintains state of name... state can be changed. Props cannot
 var Greeter = React.createClass({

@@ -51,7 +51,7 @@
 	var Greeter = __webpack_require__(159);
 
 	// Prop variables. Get passed to component on initialization
-	var firstName = "BP";
+	var firstName = "Brian";
 	var firstMessage = "This is a from a component!";
 	ReactDOM.render(React.createElement(Greeter, { name: firstName, message: firstMessage }), document.getElementById('app'));
 
